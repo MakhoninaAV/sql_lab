@@ -185,4 +185,4 @@ ORDER BY customer_id;
 - С применением расширений `cube` и `earthdistance` для каждого клиента из Нью-Йорка найден ближайший дилерский центр и расстояние до него.
 - С помощью типа `TEXT[]` и функций работы с массивами (`array_append`) реализовано автоматическое добавление тега 'VIP' клиентам с суммой покупок более 50000.
 
-Все запросы оформлены в файле [practical_work_01.sql]().
+Все запросы оформлены в файле [practical_work_01.sql](https://github.com/MakhoninaAV/sql_lab/blob/main/pract_01/practical_work_01.sql).
