@@ -152,7 +152,7 @@ SELECT round(avg(tip_amount), 2) FROM trips;
 
 **Результат:**
 
-![avg(tip_amount)](click2.2.png)
+![avg(tip_amount)](https://github.com/MakhoninaAV/sql_files/blob/main/click2.2.png?raw=true)
 
 Средняя сумма чаевых составляет **1.68**.
 
@@ -171,7 +171,7 @@ ORDER BY passenger_count;
 
 **Результат:**
 
-![passenger_count](click2.3.png)
+![passenger_count](https://github.com/MakhoninaAV/sql_files/blob/main/click2.3.png?raw=true)
 
 | passenger_count | average_total_amount |
 |----------------|----------------------|
@@ -204,7 +204,7 @@ LIMIT 22;
 
 **Результат:**
 
-![daily_trips](click2.4.png)
+![daily_trips](https://github.com/MakhoninaAV/sql_files/blob/main/click2.4.png?raw=true)
 
 ---
 
@@ -226,7 +226,7 @@ LIMIT 20;
 
 **Результат:**
 
-![trip_minutes](click2.5.png)
+![trip_minutes](https://github.com/MakhoninaAV/sql_files/blob/main/click2.5.png?raw=true)
 
 ---
 
@@ -246,7 +246,7 @@ LIMIT 12;
 
 **Результат:**
 
-![pickups_by_hour](click2.6.png)
+![pickups_by_hour](https://github.com/MakhoninaAV/sql_files/blob/main/click2.6.png?raw=true)
 
 ---
 
@@ -274,7 +274,7 @@ LIMIT 12;
 
 **Результат:**
 
-![airport_trips](click2.7.png)
+![airport_trips](https://github.com/MakhoninaAV/sql_files/blob/main/click2.7.png?raw=true)
 
 ---
 
@@ -298,7 +298,7 @@ LAYOUT(HASHED_ARRAY());
 
 **Результат:**
 
-![create_dictionary](click2.8.png)
+![create_dictionary](https://github.com/MakhoninaAV/sql_files/blob/main/click2.8.png?raw=true)
 
 ---
 
@@ -310,7 +310,7 @@ SELECT * FROM taxi_zone_dictionary LIMIT 10;
 
 **Результат:**
 
-![dictionary_content](click2.9.png)
+![dictionary_content](https://github.com/MakhoninaAV/sql_files/blob/main/click2.9.png?raw=true)
 
 ---
 
@@ -322,7 +322,7 @@ SELECT Borough, Zone FROM taxi_zone_dictionary WHERE LocationID = 132;
 
 **Результат:**
 
-![location_132](click2.10.png)
+![location_132](https://github.com/MakhoninaAV/sql_files/blob/main/click2.10.png?raw=true)
 
 | Borough | Zone |
 |---------|------|
@@ -354,7 +354,7 @@ SELECT COUNT(*) AS exists FROM taxi_zone_dictionary WHERE LocationID = 4567;
 
 **Результат:** 0
 
-![key_exists](click2.12.png)
+![key_exists](https://github.com/MakhoninaAV/sql_files/blob/main/click2.12.png?raw=true)
 
 ---
 
@@ -373,7 +373,7 @@ ORDER BY total DESC;
 
 **Результат:**
 
-![airport_analysis](click2.13.png)
+![airport_analysis](https://github.com/MakhoninaAV/sql_files/blob/main/click2.13.png?raw=true)
 
 | total | borough_name |
 |-------|--------------|
@@ -404,7 +404,7 @@ ORDER BY total DESC;
 
 **Результат:**
 
-![simple_join](click2.14.png)
+![simple_join](https://github.com/MakhoninaAV/sql_files/blob/main/click2.14.png?raw=true)
 
 | total | Borough |
 |-------|---------|
@@ -437,7 +437,7 @@ LIMIT 10;
 
 **Результат:**
 
-![top_tips_join](click2.15.png)
+![top_tips_join](https://github.com/MakhoninaAV/sql_files/blob/main/click2.15.png?raw=true)
 
 ---
 
@@ -460,7 +460,7 @@ LIMIT 10;
 
 **Результат:**
 
-![top_zones_by_tip](click2.16.png)
+![top_zones_by_tip](https://github.com/MakhoninaAV/sql_files/blob/main/click2.16.png?raw=true)
 
 | pickup_zone | avg_tip | trips_count |
 |-------------|---------|-------------|
@@ -497,7 +497,7 @@ ORDER BY total_trips DESC;
 
 **Результат:**
 
-![time_periods](click2.17.png)
+![time_periods](https://github.com/MakhoninaAV/sql_files/blob/main/click2.17.png?raw=true)
 
 | time_period | total_trips | avg_tip | avg_total |
 |-------------|-------------|---------|-----------|
